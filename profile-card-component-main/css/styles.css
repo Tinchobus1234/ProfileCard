@@ -1,0 +1,87 @@
+body {
+    font-size: 18px;
+    background: hsl(185, 75%, 39%);
+}
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div {
+    background-color: white;
+    height: 380px;
+    width: 330px;
+}
+.main-div-profile-image {
+    border-radius: 40px;
+    border: white solid 5px;
+}
+.main-div-pattern-card {
+    margin: 0px;
+    z-index: 1;
+}
+.main-div-figure-profile {
+    height: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.main-div-profile-image {
+    margin: -50px 0px 20px 0px;
+    z-index: 2;
+    justify-content: center;
+}
+.main-div-p-name {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 18px 0px 0px 0px;
+}
+.Main-div-p-name {
+    margin: 0px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+figure {
+    margin: 0px;
+}
+span {
+    padding: 0px 10px 0px 10px;
+}
+.main-div-metrics {
+    display: grid;
+    height: 90px;
+  grid-template-columns: repeat(3, 110px);
+  grid-template-rows: 90px;
+}
+.main-div-grid-metrics {
+
+}
+.metrics-p {
+    display: flex;
+    justify-content: center;
+}
+small {
+    font-size: .7em;
+    font-weight: 400;
+}
+.explanation-metrics-p {
+    display: flex;
+    justify-content: center;
+}
+.pattern-top {
+    position: absolute;
+    top: -600px; left: -200px;
+}
+.pattern-bottom {
+    position: absolute;
+    bottom: -550px; right: -300px;
+}
